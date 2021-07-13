@@ -1,0 +1,64 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "hello aman",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "okIntent",
+          "slots": [],
+          "samples": [
+            "okay"
+          ]
+        },
+        {
+          "name": "CardIntent",
+          "slots": [],
+          "samples": [
+            "card"
+          ]
+        },
+        {
+          "name": "HelloWorldWithButtonIntent",
+          "slots": [],
+          "samples": [
+            "hello button"
+          ]
+        },
+
+
+        
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "1"
+}

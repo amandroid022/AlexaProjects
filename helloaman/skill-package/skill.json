@@ -1,0 +1,35 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:298957439082:function:a9aed1b0-c466-4316-9402-3515243d2cc9:Release_0"
+        },
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:298957439082:function:a9aed1b0-c466-4316-9402-3515243d2cc9:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:298957439082:function:a9aed1b0-c466-4316-9402-3515243d2cc9:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:298957439082:function:a9aed1b0-c466-4316-9402-3515243d2cc9:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "hello aman"
+        }
+      }
+    }
+  }
+}
